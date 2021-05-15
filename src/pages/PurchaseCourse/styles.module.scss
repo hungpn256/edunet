@@ -1,0 +1,29 @@
+.container {
+  width: 100%;
+  overflow: hidden;
+}
+.scroll-list {
+  width: 100%;
+  overflow: auto;
+}
+.course-list {
+  display: flex;
+  width: fit-content;
+}
+.text-header {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  /* Môn học/Toán Primary */
+
+  color: #2963b4;
+  margin: 30px 20px;
+  margin-bottom: 10px;
+}
