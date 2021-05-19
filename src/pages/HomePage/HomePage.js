@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
+import { useTranslation } from 'react-i18next';
 
 function HomePage() {
-  return (
-    <div className='container'>
-      <h1>Trang chu</h1>
-    </div>
-  );
+  const { t, i18n } = useTranslation();
+
+  return <h2>{t('Welcome to React')}</h2>;
 }
 
 export default HomePage;

@@ -70,6 +70,10 @@
 .search-box input::placeholder {
   color: #ffffff;
 }
+.search-box input:focus {
+  border: none !important;
+  outline: none !important;
+}
 .icon-search {
   font-size: 28px;
   margin: 0 15px;

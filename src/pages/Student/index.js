@@ -5,7 +5,7 @@ import ClassItem from '../../components/ClassItem';
 
 const index = () => {
   return (
-    <div className='container'>
+    <div className={styles['container']}>
       <Search></Search>
       <div className={styles['class-list']}>
         <ClassItem />

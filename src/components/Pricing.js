@@ -1185,7 +1185,11 @@ const Landing1st = () => {
             <div className='description-plan'>
               <div className='contai-des-plan'>
                 <div className='icon yellow-color'>
-                  <img className='check-icon' src={check}></img>
+                  <img
+                    className='check-icon'
+                    src={check}
+                    alt=''
+                  ></img>
                 </div>
                 <div className='detail-description-plan '>
                   Components-driven system
@@ -1193,7 +1197,11 @@ const Landing1st = () => {
               </div>
               <div className='contai-des-plan'>
                 <div className='icon mt-42 yellow-color'>
-                  <img className='check-icon' src={check}></img>
+                  <img
+                    className='check-icon'
+                    src={check}
+                    alt=''
+                  ></img>
                 </div>
                 <div className='detail-description-plan  mt-16 '>
                   Sales-boosting landing pages
@@ -1201,7 +1209,11 @@ const Landing1st = () => {
               </div>
               <div className='contai-des-plan'>
                 <div className='icon mt-60 yellow-color'>
-                  <img className='check-icon' src={check}></img>
+                  <img
+                    className='check-icon'
+                    src={check}
+                    alt=''
+                  ></img>
                 </div>
                 <div className='detail-description-plan  mt-16 '>
                   Awesome Feather icons pack
@@ -1227,7 +1239,11 @@ const Landing1st = () => {
             <div className='description-plan'>
               <div className='contai-des-plan'>
                 <div className='icon green-color'>
-                  <img className='check-icon' src={check}></img>
+                  <img
+                    className='check-icon'
+                    src={check}
+                    alt=''
+                  ></img>
                 </div>
                 <div className='detail-description-plan '>
                   Components-driven system
@@ -1235,7 +1251,11 @@ const Landing1st = () => {
               </div>
               <div className='contai-des-plan'>
                 <div className='icon mt-42 green-color'>
-                  <img className='check-icon' src={check}></img>
+                  <img
+                    className='check-icon'
+                    src={check}
+                    alt=''
+                  ></img>
                 </div>
                 <div className='detail-description-plan'>
                   Sales-boosting landing pages
@@ -1243,7 +1263,11 @@ const Landing1st = () => {
               </div>
               <div className='contai-des-plan'>
                 <div className='icon mt-60 green-color'>
-                  <img className='check-icon' src={check}></img>
+                  <img
+                    className='check-icon'
+                    src={check}
+                    alt=''
+                  ></img>
                 </div>
                 <div className='detail-description-plan'>
                   Awesome Feather icons pack
@@ -1251,7 +1275,11 @@ const Landing1st = () => {
               </div>
               <div className='contai-des-plan'>
                 <div className='icon green-color'>
-                  <img className='check-icon' src={check}></img>
+                  <img
+                    className='check-icon'
+                    src={check}
+                    alt=''
+                  ></img>
                 </div>
                 <div className='detail-description-plan'>
                   Themed into 3 different styles
@@ -1259,7 +1287,11 @@ const Landing1st = () => {
               </div>
               <div className='contai-des-plan'>
                 <div className='icon mt-224 ml-8 green-color'>
-                  <img className='check-icon' src={check}></img>
+                  <img
+                    className='check-icon'
+                    src={check}
+                    alt=''
+                  ></img>
                 </div>
                 <div className='detail-description-plan'>
                   Will help to learn Figma
