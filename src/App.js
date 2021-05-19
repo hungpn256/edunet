@@ -1,22 +1,18 @@
-import { render } from '@testing-library/react';
 import React, { Component } from 'react';
 import {
-  Switch,
-  Route,
   BrowserRouter as Router,
+  Route,
+  Switch,
 } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header';
-import List from './components/ProductList/List';
 import routes from './routes';
 
 class App extends Component {
   render() {
     return (
       <Router>
-        <div>
-          <Header>{this.showContentMenus(routes)}</Header>
-        </div>
+        <div>{this.showContentMenus(routes)}</div>
       </Router>
     );
   }
@@ -29,12 +25,17 @@ class App extends Component {
             key={index}
             path={route.path}
             exact={route.exact}
-            component={route.main}
+            render={() => {
+              return route.hideSideBar ? (
+                route.Component
+              ) : (
+                <Header>{route.Component}</Header>
+              );
+            }}
           />
         );
       });
     }
-
     return <Switch>{result}</Switch>;
   };
 }

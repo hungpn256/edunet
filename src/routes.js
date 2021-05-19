@@ -10,44 +10,43 @@ const routes = [
   {
     path: '/',
     exact: true,
-    main: () => <HomePage />,
+    Component: <HomePage />,
   },
   {
     path: '/product-list',
     exact: false,
-    main: () => <ProductListPage />,
+    Component: <ProductListPage />,
   },
   {
     path: '/product/:id/edit',
     exact: false,
-    main: ({ match, history }) => (
-      <ProductActionPage match={match} history={history} />
-    ),
+    Component: <ProductActionPage />,
   },
   {
     path: '/product/add',
     exact: false,
-    main: ({ history }) => <ProductActionPage history={history} />,
+    Component: <ProductActionPage />,
   },
   {
     path: '/student',
     exact: true,
-    main: ({ history }) => <Student history={history} />,
+    Component: <Student />,
   },
   {
     path: '/purcharse',
     exact: true,
-    main: ({ history }) => <PurchaseCourse history={history} />,
+    Component: <PurchaseCourse />,
   },
   {
     path: '/pricing-student',
+    hideSideBar: true,
     exact: true,
-    main: ({ history }) => <PricingSudent history={history} />,
+    Component: <PricingSudent />,
   },
   {
     path: '/',
     exact: false,
-    main: () => <NotFoundPage />,
+    Component: <NotFoundPage />,
   },
 ];
 export default routes;

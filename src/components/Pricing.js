@@ -1169,7 +1169,7 @@ const Landing1st = () => {
         </svg>
       </div>
       <div className='header'>
-        <a>Mua ngay gói học tập nâng cấp</a>
+        <a href='/'>Mua ngay gói học tập nâng cấp</a>
         <div className='des-header'>Dành cho giáo viên</div>
       </div>
 
@@ -1229,7 +1229,9 @@ const Landing1st = () => {
           <div className='in-plan'>
             <div className='header-plan'>👤 Giáo viên giàu hơn </div>
             <div className='badges'>
-              <a className='alpha'>BEST !</a>
+              <a href='/' className='alpha'>
+                BEST !
+              </a>
             </div>
             <div className='cost-plan'>
               <div className='big-cost-plan'>$24</div>

@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import { Route, Link } from 'react-router-dom';
-import logo from '../../assets/imgs/logo.png';
-import styles from './styles.module.scss';
 import search from '../../assets/imgs/icon-search.png';
+import logo from '../../assets/imgs/logo.png';
 import Profile from '../../assets/imgs/Profile.png';
+import styles from './styles.module.scss';
 class Menu extends Component {
   render() {
     const { children } = this.props;
@@ -51,6 +50,54 @@ class Menu extends Component {
                 </li>
                 <li className={styles['option-item']}>
                   <a href='/student'>Khóa học dành cho bạn</a>
+                </li>
+              </ul>
+            </div>
+            <div className={styles['side-bar-link']}>
+              <div className={styles['side-bar-title']}>
+                Tài Khoản
+              </div>
+              <ul className={styles['option-list']}>
+                <li className={styles['option-item']}>
+                  <a href='/student'>Lịch học</a>
+                </li>
+                <li className={styles['option-item']}>
+                  <a href='/student'>Bảng điểm</a>
+                </li>
+                <li className={styles['option-item']}>
+                  <a href='/student'>Bài đámh giá</a>
+                </li>
+              </ul>
+            </div>
+            <div className={styles['side-bar-link']}>
+              <div className={styles['side-bar-title']}>
+                Tài Khoản
+              </div>
+              <ul className={styles['option-list']}>
+                <li className={styles['option-item']}>
+                  <a href='/student'>Lịch học</a>
+                </li>
+                <li className={styles['option-item']}>
+                  <a href='/student'>Bảng điểm</a>
+                </li>
+                <li className={styles['option-item']}>
+                  <a href='/student'>Bài đámh giá</a>
+                </li>
+              </ul>
+            </div>
+            <div className={styles['side-bar-link']}>
+              <div className={styles['side-bar-title']}>
+                Tài Khoản
+              </div>
+              <ul className={styles['option-list']}>
+                <li className={styles['option-item']}>
+                  <a href='/student'>Lịch học</a>
+                </li>
+                <li className={styles['option-item']}>
+                  <a href='/student'>Bảng điểm</a>
+                </li>
+                <li className={styles['option-item']}>
+                  <a href='/student'>Bài đámh giá</a>
                 </li>
               </ul>
             </div>

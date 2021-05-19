@@ -76,7 +76,7 @@ ul {
 .contai-plan {
   display: flex;
   z-index: 5;
-  justify-content: space-around;
+  justify-content: center;
 
   display: flex;
   background: #ffffff;
@@ -94,7 +94,7 @@ ul {
   border-radius: 16px;
   height: 536px;
   width: 370px;
-
+  margin: 0 35px;
   border-radius: 16px;
 }
 .in-plan {
