@@ -1,0 +1,86 @@
+.container {
+  display: flex;
+}
+.icon {
+  margin-left: 77px;
+  margin-top: 40px;
+}
+.img {
+  width: 190.59px;
+  height: auto;
+}
+.infor {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.name {
+  width: 289px;
+  height: 63px;
+  left: 310px;
+  top: 50px;
+
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 56px;
+  /* or 140% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -1px;
+
+  color: #000000;
+}
+.address {
+  display: flex;
+  height: 26px;
+  left: 310px;
+  top: 113px;
+  padding: 0px;
+}
+.number {
+  height: 26px;
+  left: 0px;
+  top: 0px;
+
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+.dots {
+  width: 7px;
+  height: 7px;
+
+  background: #000000;
+}
+.namedistrict {
+  height: 26px;
+  left: 114px;
+  top: 0px;
+
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 0px 5px;
+}

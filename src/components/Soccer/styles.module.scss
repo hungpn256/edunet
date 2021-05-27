@@ -1,0 +1,199 @@
+.container {
+  display: flex;
+  margin-left: 75px;
+  margin-top: 60px;
+}
+.capacity {
+  flex: 1;
+}
+.title-capacity {
+  height: 22px;
+
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.subject {
+  margin-top: 27px;
+}
+.detailsubject {
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+}
+.name {
+  width: 76px;
+  height: 24px;
+
+  /* 10 sp • OVERLINE */
+
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 16px;
+  /* or 160% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.color {
+  border-radius: 2px;
+  height: 24px;
+
+  margin-left: 15px;
+}
+.soccer {
+  width: 42px;
+  height: 24px;
+
+  /* 10 sp • OVERLINE */
+
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 16px;
+  /* or 160% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+
+  color: #000000;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin-left: 10px;
+}
+.math {
+  background: #b5150e;
+  width: 160px;
+}
+.literature {
+  background: #87bd2a;
+  width: 316px;
+}
+.language {
+  background: #f5ad2a;
+  width: 224px;
+}
+.physic {
+  background: #f5ad2a;
+  width: 224px;
+}
+.chemistry {
+  background: #87bd2a;
+  width: 280px;
+}
+.biology {
+  background: #87bd2a;
+  width: 364px;
+}
+.informatics {
+  width: 200px;
+  background: #f5ad2a;
+}
+.history {
+  width: 320px;
+  background: #87bd2a;
+}
+.geography {
+  width: 392px;
+  background: #87bd2a;
+}
+.religious-education {
+  width: 400px;
+  background: #87bd2a;
+}
+.technology {
+  width: 120px;
+  background: #b5150e;
+}
+.physical-education {
+  width: 400px;
+  background: #87bd2a;
+}
+.detail {
+  flex: 1;
+  margin-top: -10px;
+}
+.namesubject {
+}
+.detailsubject {
+}
+
+.name-detail {
+  width: 100%;
+  height: 22px;
+  left: 0px;
+  top: 0px;
+  flex: 1;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+.soccer-detail {
+  display: flex;
+}
+.lesson {
+  width: 75px;
+  height: 24px;
+  left: 0px;
+  top: 0px;
+
+  /* 10 sp • OVERLINE */
+
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 16px;
+  /* or 160% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+
+  color: #000000;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+.soccers-detail {
+  margin-top: 27px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-44 {
+  margin-top: 44px;
+}

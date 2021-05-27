@@ -5,6 +5,10 @@ import ProductListPage from './pages/ProductListPage/ProductListPage';
 import ProductActionPage from './pages/ProductActionPage/ProductActionPage';
 import Student from './pages/Student';
 import PurchaseCourse from './pages/PurchaseCourse';
+import TimeTable from './pages/TimeTable';
+import Plan from './pages/Plan';
+import Soccer from './pages/Soccer';
+import Celender from './pages/Celender';
 import PricingSudent from './pages/PricingStudent';
 const routes = [
   {
@@ -33,9 +37,29 @@ const routes = [
     Component: <Student />,
   },
   {
+    path: '/soccer',
+    exact: true,
+    Component: <Soccer />,
+  },
+  {
     path: '/purcharse',
     exact: true,
     Component: <PurchaseCourse />,
+  },
+  {
+    path: '/timetable',
+    exact: true,
+    Component: <TimeTable />,
+  },
+  {
+    path: '/plan',
+    exact: true,
+    Component: <Plan />,
+  },
+  {
+    path: '/celender',
+    exact: true,
+    Component: <Celender />,
   },
   {
     path: '/pricing-student',
